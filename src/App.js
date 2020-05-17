@@ -8,7 +8,7 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
 function App() {
   return (
     <div className="App">
-      <WrappedMap googleMapURL={'https://maps.googleapis.com/maps/api/js?key=AIzaSyDm_cz0_nF9fBujYFL1sa1qB4dLP2FJ794'}
+      <WrappedMap googleMapURL={'YOUR_APY_KEY_FROM_GOOGLE_MAPS'}
       loadingElement={<div style={{height:'100%'}}></div>}
       containerElement={<div style={{height:'100%'}}></div>}
       mapElement={<div style={{height:'100%'}}></div>}/>
